@@ -1,33 +1,33 @@
-Aural Essence WhatsApp Chatbot
+🌿 Aural Essence WhatsApp Chatbot
 
-A simple WhatsApp chatbot for lead capture and automated responses built using FastAPI and WhatsApp Cloud API.
+A simple WhatsApp chatbot for automated responses and lead capture built using FastAPI and WhatsApp Cloud API.
 
-This chatbot automatically replies to user messages with predefined responses and stores the user's phone number and message in a database for lead tracking.
+The chatbot automatically replies to users with predefined messages and stores their phone numbers and messages in a database for tracking potential leads.
 
-Overview
+📌 Overview
 
-The chatbot is designed for Aural Essence, a B2B supplier of pure hydrosols and essential oils used by skincare, aromatherapy, and wellness brands.
+This chatbot is designed for Aural Essence, a B2B manufacturer of 100% pure hydrosols and essential oils used in skincare, aromatherapy, and wellness products.
 
-When a user sends a message on WhatsApp:
+When a user sends a message via WhatsApp:
 
-The message is received through the WhatsApp Cloud API webhook
+The message is received via the WhatsApp Cloud API webhook
 
-The backend processes the message
+The FastAPI backend processes the request
 
 The user's phone number and message are stored in a database
 
-The chatbot replies with predefined responses such as products, samples, pricing, etc.
+The chatbot responds with predefined replies based on keywords
 
-Features
+🚀 Features
 
-Automated WhatsApp responses
+📩 Automatic WhatsApp replies
 
-Lead capture (phone number + message)
+📊 Lead capture (phone number + message)
 
-Keyword-based chatbot responses
+🔑 Keyword-based chatbot responses
 
-Lightweight FastAPI backend
+⚡ FastAPI backend
 
-SQLite database for storing leads
+🗄 SQLite database for storing leads
 
-Simple and easy to extend
+🔧 Easy to extend and customize
